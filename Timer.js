@@ -27,3 +27,5 @@ let countDown = () => {
 countDown()
 
 setInterval(countDown, 1000)
+
+document.addEventListener('contextmenu', event => event.preventDefault());
